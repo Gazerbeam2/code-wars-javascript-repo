@@ -6,6 +6,7 @@
 function squareSum(numbers){
   return numbers.reduce((acc,c) => acc + c**2, 0)
 }
+
 ____________________________________________________________________________________________________________________________
 
 //Function 2 - squaring an argument
@@ -17,3 +18,13 @@ function square(num){
   }
 
 _____________________________________________________________________________________________________________________________
+
+//Convert a Boolean to a String
+
+//Implement a function which convert the given boolean value into its string representation \
+
+function booleanToString(b){
+  return b.toString()
+}
+
+___________________________________________________________________________________________________________________________________
