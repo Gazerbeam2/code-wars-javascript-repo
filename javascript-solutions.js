@@ -37,3 +37,17 @@ function sumTwoSmallestNumbers(numbers){
           numbers.sort(function(a,b){return a - b });
           return numbers[0] + numbers[1]
 }
+
+____________________________________________________________________________________________________________________________
+
+//Clock shows h hours, m minutes and s seconds after midnight
+
+//Your task is to write a function which returns the time since midnight in milliseconds
+
+function past(h, m, s){
+  let hoursToMilliseconds = h * 3600000;
+  let minutesToMilliseconds = m * 60000;
+  let secondsToMilliseconds = s * 1000.;
+
+  return hoursToMilliseconds + minutesToMilliseconds + secondsToMilliseconds;
+}
