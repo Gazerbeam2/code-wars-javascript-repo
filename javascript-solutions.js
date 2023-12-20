@@ -90,3 +90,27 @@ function doubleInteger(i){
 }
 
 _______________________________________________________________________________________________________________________
+
+//Opposites Attract
+
+//Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+
+//Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
+
+function lovefunc(flower1, flower2){
+  return flower1 % 2 !== flower2 % 2;
+}
+
+//% is the modulo/remainder operator. It gives us the remainder (what's left over) after a number is divided by another number.
+
+//If an even number is divided by 2, there is nothing left over, the remainder will always be 0. (60/2 = 30.00)
+
+//If an odd number is divided by 2, there will always be a remainder of 0.5 or 1/2. (61/2 = 30.50)
+
+//So... if (Modulus 2 of flower1) !== is NOT equal to (% 2 of flower2) then one flower has a remainder of 0, and the other has a remainder of 0.5.
+
+//Meaning, one flower has an even number of petals, the other, odd. True is returned, they are in love!.
+
+//else if (flower1 % 2) === (flower2 % 2), false is returned, they are not in love :( .
+
+______________________________________________________________________________________________________
