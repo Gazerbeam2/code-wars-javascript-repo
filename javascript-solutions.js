@@ -113,4 +113,25 @@ function lovefunc(flower1, flower2){
 
 //else if (flower1 % 2) === (flower2 % 2), false is returned, they are not in love :( .
 
-______________________________________________________________________________________________________
+_________________________________________________________________________________________
+
+//Grasshopper-Personalized Message
+
+//Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
+//Use conditionals to return the proper message:
+//case: Name equals owner; return: 'Hello boss'
+//case: otherwise; return: 'Hello guest'
+
+function greet(name,owner){
+  if(name === owner){
+    return 'Hello boss'
+  }
+  else{
+    return 'Hello guest'
+  }
+}
+
+ /*function greet(name,owner){
+  return name === owner? 'Hello boss' : 'Hello guest';
+} */
+______________________________________________________________________________
