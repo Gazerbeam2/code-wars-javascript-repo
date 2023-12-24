@@ -165,7 +165,7 @@ function oddOrEven(array) {
   }
 
   /*function gimme(a) {
-  return a.indexOf(a.concat().sort(function(a, b) { return a - b })[1])
+  return a.indexOf(a.concat().sort(function(a, b) { return a - b })[1]) //Splice works better probably
 }*/
 
 _____________________________________________________________________________________
