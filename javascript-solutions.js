@@ -191,3 +191,28 @@ function cockroachSpeed(s){
 }
 
 _________________________________________________________________________________________________________________________________________
+
+/*Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present). */
+
+//create a counter variable
+//iterate through the array
+//for every item in the array, check if the value is trie or false (including null or undefined)
+//if the value is true, add +1 to counter variable and if not true skip and keep moving
+//return the variable
+
+//Mistake made: Left the return statement inside the For Loop so it returns the value before the loop was able to fully complete.
+
+function countSheeps(sheep) {
+  let sum = 0
+ for(let i = 0; i <= sheep.length; i++){
+
+   if(sheep[i] === true){
+     sum += 1;
+
+   }
+
+ }
+ return sum
+ }
+
+ ________________________________________________________________________________________________________________________________________
