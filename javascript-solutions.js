@@ -295,3 +295,20 @@ function getCount(str) {
  }
 
  _________________________________________________________________________________________--
+
+/* Given an array of integers you solution should find the smallest integer. */
+
+class SmallestIntegerFinder{
+  findSmallestInt(args){
+    let sortedArray = args.sort((a,b) => a -b)
+    return sortedArray[0];
+  }
+}
+
+class SmallestIntegerFinder{
+  findSmallestInt(args) {
+    return Math.min(...args)
+  }
+}
+
+_____________________________________________________________________
