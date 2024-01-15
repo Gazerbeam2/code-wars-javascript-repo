@@ -312,3 +312,27 @@ class SmallestIntegerFinder{
 }
 
 _____________________________________________________________________
+
+//List Filtering
+//In this kata you will create a function that takes a lsit of non-negative integers and strings and returns a new list with the strings filter out
+
+function filter_list(l){
+  let arr = [];
+  for(let i = 0; i < l.length; i++){
+    if(typeof l[i] === 'number'){
+      arr.push(l[i]);
+    }
+  }
+  return arr
+}
+
+function filter_list(l){
+  return l.filter(function(v){
+    return typeof v == 'number'
+  })
+}
+
+function filter_lister(l){
+  return l.filter(v => typeof v == "number")
+}
+______________________________________________________________________________
