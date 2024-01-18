@@ -16,4 +16,7 @@ Examples(Input --> Output)
 
 Remarks
 
-All array or lists will always have at least one element, so you don't need to check the length. Also, your function will always get and array or a list, you don't have to check for null, undefined or similar.s
+All array or lists will always have at least one element, so you don't need to check the length. Also, your function will always get and array or a list, you don't have to check for null, undefined or similar.
+
+
+Mistakes: Didn't know about the spread operater. Tried to use concat to combine the array. Didn't know you return the value of the array with the square brackets.
