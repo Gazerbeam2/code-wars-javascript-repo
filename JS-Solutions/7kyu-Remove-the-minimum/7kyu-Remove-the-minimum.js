@@ -41,9 +41,4 @@ function removeSmallest(numbers) {
   //Create a copied array using the spread operator
   //Find the minimum number and its index within the Array
   //Check if the length of the Array is equal to 0 and return it as a a empty array
-  //
-
-
-
-
-  //Alternative Solutions
+  //Else splice the Array at the index of the lowest number
