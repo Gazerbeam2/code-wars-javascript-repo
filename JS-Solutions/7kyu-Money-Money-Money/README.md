@@ -36,4 +36,4 @@ Your task is to complete the method provided and return the number of years 'Y' 
 Assumption: Assume that Desired Principal 'D' is always greater than the initial principal. However it is best to take into consideration that if Desired Principal 'D' is equal to Principal 'P' this should return 0 Years.
 
 Notes: In my initial attempt, I calculated the interest correct but i didn't calculate the tax correctly.
-I also used a for loop and a ternary even thought it was unnecessary
+I also used a for loop and a ternary even thought it was unnecessary.
