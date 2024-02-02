@@ -1,3 +1,5 @@
+//Added Solution
+
 function persistence(num){
     var times = 0;
 
