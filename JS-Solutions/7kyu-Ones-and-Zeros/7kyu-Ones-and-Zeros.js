@@ -8,3 +8,9 @@ const binaryArrayToNumber = arr => {
 //we know we need to return a integer
 //We have to concatenate the numbers together into a string
 //Concatenate the numbers and the return it as a decimal format
+
+//Alterative:
+
+const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);
+
+//Learned you can throw a method into parseInt
