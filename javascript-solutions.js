@@ -9,16 +9,7 @@ function square(num){
     return num * num
   }
 
-_____________________________________________________________________________________________________________________________
-
-//Convert a Boolean to a String
-
-//Implement a function which convert the given boolean value into its string representation
-
-function booleanToString(b){
-  return b.toString()
-}
-
+_______________________________________________________________________________
 ___________________________________________________________________________________________________________________________________
 
 //Sum of two lowerst positive integers
